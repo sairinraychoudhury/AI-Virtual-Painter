@@ -37,24 +37,38 @@ Libraries Used: OpenCV, Mediapipe and NumPy
 1. Ensure to have Python installed on our system. 
 Install required libraries using the following command:
 
->>> pip install opencv-python 
+      `pip install opencv-python`
 
->>> pip install mediapipe 
+      `pip install mediapipe` 
 
->>> pip install numpy
+      `pip install numpy`
 
 2. Run the Application:
 
 Execute the main application script to launch the AI Virtual Painter.
 
->>> python VirtualPainter.py 
+      python VirtualPainter.py
+
 
 3. Explore and Create:
+   
 
-Utilize the various features listed above to experiment with drawing geometric shapes and air-drawing.
+Utilize the various features listed below to experiment with drawing geometric shapes and air-drawing.
+
+1. Drawing Circle: Diameter of circle is decided using index finger and thumb. Circle is printed on screen by raising little finger.
+   
+2. Drawing Rectangle: Diagonal of rectangle is decided using index finger and thumb. Rectangle is printed on screen by raising little finger.
+
+3. Drawing Ellipse: Diagonal of ellipse is decided using index finger and thumb. Ellipse is printed on screen by raising little finger.
+   
+4. Free hand style drawing: Is done using index figure and thumb.
+   
+5. Color Selection: Using index figure and middle figure.
+   
+6. Eraser: Increase eraser thickness using index finger and little finger.
 
 
-## Contributors
+## Created By:
 
 ### Sairin Ray Choudhury
 
